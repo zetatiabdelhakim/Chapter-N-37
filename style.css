@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(to left, #881e73, #000000);
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 30px;
+}
+h1 {
+  color: #79f798;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;x
+}
+img {
+  width: max(20%, 300px);
+  border-radius: 30px;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p.quote {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 0.7em;
+}
+p.day {
+  color: white;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+.do {
+  width: 300px;
+  color: aliceblue;
+}
+.do h6 {
+  align-self: start;
+  color: rgb(0, 255, 166);
+}
+.hi {
+  margin-top: 50px;
+  width: 100px;
+}
+/* button{
+    position: absolute;
+    background-color: red;
+    bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+.end_hi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
