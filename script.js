@@ -96,22 +96,3 @@ set_gym(day);
 setTimeout(() => {
   location.reload(true);
 }, 30 * 60 * 1000);
-
-// // Test
-// function sleep(ms) {
-//   return new Promise((resolve) => setTimeout(resolve, ms));
-// }
-
-// (async function () {
-//   for (let week = 0; week <= 2; week++) {
-//     form_the_tour(gym, tour, week);
-//     for (let day = 0; day <= 6; day++) {
-//       set_day(day);
-//       set_morning(day);
-//       set_gym(day);
-//       await sleep(1000);
-//       const divs = document.querySelectorAll("div.do");
-//       divs.forEach((div) => div.remove());
-//     }
-//   }
-// })();
